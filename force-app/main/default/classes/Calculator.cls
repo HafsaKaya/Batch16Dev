@@ -1,0 +1,28 @@
+public class Calculator {
+
+    public integer add(integer a, integer b){
+        integer sum = a + b;
+        return sum;
+    }
+
+    public void add(decimal a, decimal b){
+        system.debug(a+b);
+    }
+
+    public integer add(integer x, integer y, integer z){
+        integer sum1 = add(x,y);
+        integer sum = add(z, sum1);
+        return (sum);
+
+
+
+
+        
+    }
+    public boolean leapYearCheck(date dt){
+        integer yr = dt.year();
+        
+        boolean isLeap = date.isLeapYear(yr);
+        return isLeap;
+    }
+}

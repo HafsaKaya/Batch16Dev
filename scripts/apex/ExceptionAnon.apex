@@ -1,0 +1,17 @@
+account a1 = ExceptionDemo.demo3(null);
+system.debug('** returned account a1: ' + a1);
+
+system.debug('---------');
+
+account a11 = ExceptionDemo.demo3('sForce');
+system.debug('** returned account a11: ' + a11);
+
+ExceptionDemo.Demo2(null, 5);
+ExceptionDemo.Demo2('simple', 0);
+
+ExceptionDemo.Demo2(null, 0);
+
+
+ExceptionDemo.demo1('Hello hellow');
+
+ExceptionDemo.demo1(null);
